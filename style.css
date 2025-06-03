@@ -1,1 +1,172 @@
-body{background-color: bisque;}
+.{
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    position: relative;
+    margin-left: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: red;
+  }
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.header-icons a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.header-icons a span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+ 
+.hero-section {
+    background-color: #f8f8f8;
+    padding: 200px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content .price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-content .description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.social-icons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+.social-icons a{
+background-color: #333;
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.social-icons :hover{
+  background-color: red;
+}
+
+.contact-list{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.about-head{
+    font-family: Arial;
+    color: #555;
+    font-weight: bolder;
+}
+.about-content{
+    line-height: 40px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
